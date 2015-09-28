@@ -1,0 +1,42 @@
+{
+  "name": "link-imports",
+  "version": "0.0.1",
+  "description": "Generate link imports for Polymer Web Components",
+  "homepage": "",
+  "repository": "kristianmandrup/link-imports",
+  "author": {
+    "name": "Kristian Mandrup",
+    "email": "kmandrup@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "polymer"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-jscs": "^1.1.0",
+    "gulp-jshint": "^1.5.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5",
+    "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "lodash": "^3.10.1",
+    "node-dir": "^0.1.10",
+    "through2": "^2.0.0",
+    "yamljs": "^0.2.4"
+  }
+}
