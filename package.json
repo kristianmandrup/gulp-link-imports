@@ -1,9 +1,9 @@
 {
-  "name": "link-imports",
+  "name": "gulp-link-imports",
   "version": "0.0.1",
-  "description": "Generate link imports for Polymer Web Components",
+  "description": "Gulp plugin to generate link imports for Polymer Web Components",
   "homepage": "",
-  "repository": "kristianmandrup/link-imports",
+  "repository": "kristianmandrup/gulp-link-imports",
   "author": {
     "name": "Kristian Mandrup",
     "email": "kmandrup@gmail.com",

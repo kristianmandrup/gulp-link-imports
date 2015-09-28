@@ -1,13 +1,13 @@
-link-imports [![NPM version](https://badge.fury.io/js/link-imports.svg)](https://npmjs.org/package/link-imports) [![Build Status](https://travis-ci.org/kristianmandrup/link-imports.svg?branch=master)](https://travis-ci.org/kristianmandrup/link-imports) [![Dependency Status](https://david-dm.org/kristianmandrup/link-imports.svg?theme=shields.io)](https://david-dm.org/kristianmandrup/link-imports)
-==============================================================================================================================================================================================================================================================================================================================================================================================================
+gulp-link-imports [![NPM version](https://badge.fury.io/js/link-imports.svg)](https://npmjs.org/package/gulp-link-imports) [![Build Status](https://travis-ci.org/kristianmandrup/gulp-link-imports.svg?branch=master)](https://travis-ci.org/kristianmandrup/gulp-link-imports) [![Dependency Status](https://david-dm.org/kristianmandrup/gulp-link-imports.svg?theme=shields.io)](https://david-dm.org/kristianmandrup/gulp-link-imports)
+============================================================================================================================================================================================================================================================================================================================================================================================================================================
 
-> Generate link imports for Polymer Web Components
+> Gulp plugin to generate link imports for Polymer Web Components
 
 Install
 -------
 
 ```sh
-$ npm install --save link-imports
+$ npm install --save gulp-link-imports
 ```
 
 Usage
@@ -71,7 +71,7 @@ Finally each item will be postfixed with `.html` to `paper-fab/paper-fab.html` b
 Configure tasks in your `gulpfile.js`
 
 ```js
-var linkImports = require('link-imports');
+var linkImports = require('gulp-link-imports');
 
 gulp.task('import:external', function () {
   gulp.src('./app/elements/imports/external/**/*.yml')
