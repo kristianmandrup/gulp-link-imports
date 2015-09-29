@@ -1,13 +1,13 @@
 {
   "name": "gulp-link-imports",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp plugin to generate link imports for Polymer Web Components",
   "homepage": "",
   "repository": "kristianmandrup/gulp-link-imports",
   "author": {
     "name": "Kristian Mandrup",
     "email": "kmandrup@gmail.com",
-    "url": ""
+    "url": "tecla5.com"
   },
   "files": [
     "lib"
@@ -15,6 +15,9 @@
   "main": "lib/index.js",
   "keywords": [
     "polymer"
+    "util",
+    "link",
+    "imports"
   ],
   "devDependencies": {
     "gulp": "^3.6.0",
