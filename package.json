@@ -14,7 +14,7 @@
   ],
   "main": "lib/index.js",
   "keywords": [
-    "polymer"
+    "polymer",
     "util",
     "link",
     "imports"
